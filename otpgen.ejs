@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OTP Verification</title>
+</head>
+<body>
+    <h1>OTP Verification</h1>
+    <p>Click the button below to generate a new OTP:</p>
+    <form action="/otpgen" method="POST">
+        <label for="checkotp">Enter OTP:</label>
+        <input type="text" id="checkotp" name="otp" required>
+        <button type="submit">Verify OTP</button>
+    </form>
